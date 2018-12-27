@@ -8,7 +8,7 @@ Font.register(PTSansCaption, { family: 'PT Sans Caption' })
 class App extends Component {
   render() {
     return (
-      <PDFViewer width="100vw" height="100vh">
+      <PDFViewer width="100%" height="100%">
         <Document>
           <Page>
             <Text style={{ fontFamily: 'PT Sans Caption' }}>Hello, world</Text>
